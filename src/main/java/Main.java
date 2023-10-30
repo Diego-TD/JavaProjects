@@ -1,11 +1,14 @@
 public class Main {
     public static void main(String[] args) {
+        StringManipulator classObj = new StringManipulator();
+        classObj.stringManipulator();
+
         /*
         CharacterIdentifier classObj = new CharacterIdentifier();
         classObj.charIs();
-        */
+
         CinemaAlgorithm classObj = new CinemaAlgorithm();
         classObj.CategoryChecker();
-
+        */
     }
 }
