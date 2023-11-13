@@ -1,19 +1,6 @@
 import java.util.Scanner;
 
 public class CinemaAlgorithm {
-    public static void PeopleInfo(){
-        byte age, student;
-        Scanner scan = new Scanner(System.in);
-        age = scan.nextByte(); // duplicated, people can be a class? with a person as objects :0
-        if (age < 17) {
-            System.out.println("Does 'it' has a student credential? Type a number: \n True: 0 \n False: 1");
-            student = scan.nextByte();
-            if (student < 0 || student > 1) {
-                System.out.println("That is not a valid option (student credential)");
-                return;
-            }
-        }
-    }
     public void CategoryChecker(){
         byte people, ageOne, studentOne, ageTwo, studentTwo, total, end = 0;
         String categories;
